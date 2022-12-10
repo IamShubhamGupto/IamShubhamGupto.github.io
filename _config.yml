@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Shubham
-middle_name: >
+# middle_name: 
 last_name: Gupta
 email: gupta.shubham@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
