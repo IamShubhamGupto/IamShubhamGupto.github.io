@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - IamShubhamGupto
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - IamShubhamGupto/WSSL-Weighted-Self-Supervised-Learning-for-Image-Inpainting
+  - IamShubhamGupto/BandNet
+  - IamShubhamGupto/FFT-Noise
+  - IamShubhamGupto/Splay-Tree-as-a-Container
