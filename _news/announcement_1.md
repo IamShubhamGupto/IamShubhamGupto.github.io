@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-12-09 19:59:00-0400
+date: 2023-1-10 19:59:00-0400
 inline: true
 ---
 
-🚧🚧 Website sourced from template, working on updates 🚧🚧
+Scored 3.778/4.0 on my first semester wohoo!! 🥳
