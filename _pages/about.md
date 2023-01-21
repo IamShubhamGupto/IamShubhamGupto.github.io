@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.nyu.edu'>New York University</a>. +1 (917)-603-2850
+subtitle: <a href='https://www.nyu.edu'>New York University</a>. 
 
 profile:
   align: right
