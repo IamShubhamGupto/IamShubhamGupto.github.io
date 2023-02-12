@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-1-23 19:59:00-0400
+date: 2023-2-12 19:59:00-0400
 inline: true
 ---
 
-Released by first blog! go check it out!
+Working with Dr. Laure Zanna as a Climate Modeling Research Assistant!! Also new blog post!!
