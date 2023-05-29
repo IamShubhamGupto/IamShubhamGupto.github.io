@@ -16,9 +16,9 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-Hey there! Welcome to my personal site (always under development) where I try to document most of my previous and ongoing work. I'm a software developer passionate about solving Computer Vision problems. You can read about my published work in the <b><a href='publications/'> publications </a></b> tab. 
+Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I'm a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields and scene understanding.
 
-Im currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships for summer 2023!</b> I am looking for software development roles and research assistant positions for projects related to representation learning. I am available for work between May and September 2023.
+Im currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships for summer 2024!</b> I am looking for opportunities in software engineering preferably related to Computer Vision and cloud. Get in touch with me at <i>gupta dot shubham at nyu dot edu</i>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
