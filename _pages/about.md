@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: gupta [dot] shubham [at] nyu [dot] [edu]. 
+subtitle: gupta [dot] shubham [at] nyu [dot] edu 
 profile:
   align: right
   image: light_prof_pic.jpg
