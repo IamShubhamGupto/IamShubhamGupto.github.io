@@ -4,7 +4,7 @@ permalink: /research/
 title: research
 description: My previous and current research
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <h3>Climate Modeling Research Assistant, NYU Courant </h3>

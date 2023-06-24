@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Courses I have taught / assisted in the past
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 <h3>UE19CS352 - Cloud Computing</h3>
