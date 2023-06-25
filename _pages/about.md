@@ -5,7 +5,7 @@ permalink: /
 subtitle: gupta [dot] shubham [at] nyu [dot] edu 
 profile:
   align: right
-  image: light_prof_pic.jpg
+  image: output_animation.gif
   image_circular: false # crops the image to make it circular
   address: 
   
@@ -16,9 +16,9 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I'm a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields and scene understanding.
+Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I am a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields and scene understanding.
 
-Im currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships for summer 2024!</b> I am looking for opportunities in software engineering preferably related to Computer Vision and cloud.
+I am currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships for summer 2024!</b> I am looking for opportunities in software engineering preferably related to Computer Vision and cloud.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
