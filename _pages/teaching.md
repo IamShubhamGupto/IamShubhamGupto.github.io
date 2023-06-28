@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses I have taught / assisted in the past
 nav: true
 nav_order: 5

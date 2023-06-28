@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: gupta [dot] shubham [at] nyu [dot] edu 
 profile:
