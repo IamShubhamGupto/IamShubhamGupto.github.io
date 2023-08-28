@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-3-05 19:59:00-0400
+date: 2023-4-14 19:59:00-0400
 inline: true
 ---
 
-New blog post on Apps script by Google!
+Code released for DL Mini Project - [ConvMixerXL](https://github.com/IamShubhamGupto/ConvMixerXL)!
