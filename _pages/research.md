@@ -10,8 +10,8 @@ nav_order: 4
 <h3>Climate Modeling Research Assistant, NYU Courant </h3>
 <h5>Advisor: <a href="https://zanna-researchteam.github.io">Dr. Laure Zanna</a> &emsp;|&emsp;Feb 2023 - present, NYU, US</h5>
 <ul>
-    <li> Responsible for developing the <a href='https://m2lines.github.io/L96_demo/notebooks/gradient_decent.html'>Intro to Machine Learning</a> and <a href='https://m2lines.github.io/L96_demo/notebooks/feature_importance.html'>Feature importance</a> notebooks from scratch.</li>
-    <li>Contributed to cleaning up and optimizing code and explanation on <a href='https://m2lines.github.io/L96_demo/intro.html#'>L96Demo</a> repository. </li>
+    <li>Updated and restructured Machine Learning content for <a href='https://m2lines.github.io/L96_demo/intro.html#'>L96Demo</a>.</li>
+    <li>Optimized Jupyter Notebooks and Book compile times by refactoring code for<a href='https://m2lines.github.io/L96_demo/intro.html#'>L96Demo</a>. </li>
     <li>Performing maintence updates on M2Lines <a href='https://m2lines.github.io'>website</a>.</li>
 </ul>
 
