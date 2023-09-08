@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I am a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields and scene understanding.
 
-I am currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships for summer 2024!</b> I am looking for opportunities in software engineering preferably related to Computer Vision and cloud.
+I am currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships or full time positions starting from summer 2024!</b> I am looking for opportunities in software engineering preferably related to Computer Vision and Cloud.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
