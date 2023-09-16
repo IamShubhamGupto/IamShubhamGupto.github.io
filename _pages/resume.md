@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv
 permalink: /assets/pdf/Shubham_Gupta_CV.pdf
 title: CV
 nav: true
