@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /assets/pdf/Shubham_Gupta_Resume.pdf
-title: CV
+title: Resume
 nav: true
 nav_order: 3
 ---
