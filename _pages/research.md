@@ -7,6 +7,13 @@ nav: true
 nav_order: 4
 ---
 
+<h3>Research Assistant, NYU Tandon </h3>
+<h5>Advisor: <a href="https://engineering.nyu.edu/faculty/chen-feng">Dr. Chen Feng</a> &emsp;|&emsp;Aug 2023 - present, NYU, US</h5>
+<ul>
+    <li>Working with Dr Chen Feng and PhDs students from his lab, <a href='https://ai4ce.github.io'>AI4CE</a> to study optimal camera trajectory planning for Neural Radiance Fields.</li>
+    <li>Conducting large scale experiments on NYU HPC to confirm multiple hypothesis.</li>
+</ul>
+
 <h3>Climate Modeling Research Assistant, NYU Courant </h3>
 <h5>Advisor: <a href="https://zanna-researchteam.github.io">Dr. Laure Zanna</a> &emsp;|&emsp;Feb 2023 - present, NYU, US</h5>
 <ul>
@@ -30,7 +37,7 @@ nav_order: 4
 <h3>NYU Ultraviolet, Robomaster VIP </h3>
 <h5>Advisor: <a href="https://engineering.nyu.edu/staff/chris-dimauro">Chris "Widget" Dimauro</a> &emsp;|&emsp;Sep 2022 - present, NYU, US </h5>
 <ul>
-    <li>Contributed to securing 5<sup>th</sup> in the RoboMasters University League 2023 against eighteen teams across the world.</li>
+    <li>Secured 5<sup>th</sup> in the RoboMasters University League 2023 against eighteen teams across the world.</li>
     <li>Reduced inference latency by 40% on YOLOv5 using TensorRT deployed on Jetson (aarch64) and x86
 architecture using Docker NGC containers.</li>
     <!-- <li> Contributed to deploying code on Jetson hardware using Docker images. </li> -->

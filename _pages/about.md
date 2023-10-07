@@ -15,10 +15,20 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
+<div style="text-align: justify">
+  <p>
+    Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I am a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields, scene understanding and optimizing network inference for mobile computing. 
+  </p>
 
-Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I am a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields and scene understanding.
+  <p>
+    I am currently pursuing Masters in Computer Engineering at New York University, advised by <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at the AI4CE lab. I am researching optimal trajectories for Neural Radiance Fields, and <b>actively seeking internships or full time positions starting from summer 2024!</b>
+  </p>
 
-I am currently pursuing Masters in Computer Engineering at New York University and <b>actively seeking internships or full time positions starting from summer 2024!</b> I am looking for opportunities in software engineering preferably related to Computer Vision and Cloud.
+  <p>
+    I am a Computer Vision Lead at NYU RoboMaster, where I manage and work with an interdisciplinary team of fifteen to train, optimize, and deliver a detection and tracking solution for the RoboMaster University League competition. In addition, I work as a Climate Modeling Research Assistant at NYU, collaborating with <a href='https://zanna-researchteam.github.io'>Dr. Laure Zanna</a> at M2LInES, a center for data-driven climate science.
+  </p>
+</div>
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
