@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Shubham
+first_name: 
 # middle_name: 
-last_name: Gupta
+last_name: Shubham Gupta
 email: sg7761@nyu.edu
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -94,7 +94,7 @@ unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
-cv_pdf: Shubham_Gupta_CV.pdf
+
 
 # contact_note: >
 #     Email me if you want to get in touch (:
