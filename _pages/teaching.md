@@ -10,7 +10,7 @@ nav_order: 5
 <h3>UE19CS352 - Cloud Computing</h3>
 <h5> Spring 2022, PES University, India </h5>
 <ul>
-    <li>Assisted in making slides for Cloud storage - S3</li>
+    <li>Created content for Cloud storage - S3</li>
     <li>Delivered the following lab manuals:</li>
     <ul>
         <li>Kubernetes: Covered pod creation, deletion, self-healing, scaling and rollbacks.</li>
