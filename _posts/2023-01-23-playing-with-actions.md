@@ -4,7 +4,7 @@ title: Playing with actions
 date: 2023-01-23 00:00:00
 description: Learning Github Actions by building simple agile automation tasks
 tags: code github 
-categories: code
+categories: code automation
 ---
 
 In the last couple of days, I wanted to make most of free time of my winter break. I decided to work on my automation skills, something I have always been keeping aside as it didn't seem very important. But after pushing this aside for months, I have finally started and hopefully continue building on this project.

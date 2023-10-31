@@ -4,7 +4,7 @@ title: Automation with web scrapping
 date: 2023-02-12 00:00:00
 description: Simplying data collection from web sites using Python web scrapping
 tags: code github python web-scrapping
-categories: code
+categories: code automation
 ---
 
 My work with NYU Marron requires me to automate fence, wall and building annotation on Google Street View images. While this project can be an entire blog separately, I wanted to write specifically about the recent progress I had made. There is a publically available dataset [Cityscapes](https://www.cityscapes-dataset.com) that consists of per-pixel annotations of street videos of 50 cities in and around Germany. While this is not ideal as we are dealing with street view images of New York, it should be a good starting point. Once we establish a baseline on pretrained models from other cities, we could then decide if we need to custom train a model of our own based on the performance.
