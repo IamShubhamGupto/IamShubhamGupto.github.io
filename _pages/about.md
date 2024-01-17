@@ -21,11 +21,15 @@ social: true  # includes social icons at the bottom of the page
   </p>
 
   <p>
-    I am currently pursuing Masters in Computer Engineering at New York University, advised by <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at the AI4CE lab. I am researching optimal trajectories for Neural Radiance Fields, and <b>actively seeking internships or full time positions starting from summer 2024!</b>
+    I am currently pursuing Masters in Computer Engineering at New York University, advised by <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at the AI4CE lab. I am researching optimal trajectories for Neural Radiance Fields and efficient inference for mobile computing. I am on the academic job market looking for <b>fully funded PhD positions </b> and <b>actively seeking engineering roles starting from summer 2024!</b>.
   </p>
 
   <p>
     I am a Computer Vision Lead at NYU RoboMaster, where I manage and work with an interdisciplinary team of fifteen to train, optimize, and deliver a detection and tracking solution for the RoboMaster University League competition. In addition, I work as a Climate Modeling Research Assistant at NYU, collaborating with <a href='https://zanna-researchteam.github.io'>Dr. Laure Zanna</a> at M2LInES, a center for data-driven climate science.
+  </p>
+
+  <p>
+    Prior to joining NYU, I was a research assistant at Indian Space Research Organization (ISRO) advised by <a href='https://www.researchgate.net/profile/Hebbar-Ram'>Dr. R Hebbar</a> and <a href='https://staff.pes.edu/nm1308/'>Dr. Uma D</a> at PES University for spatio temporal tracking of water bodies in Bengaluru. For my undergraduate capstone project, I was advised by <a href='https://scholar.google.co.in/citations?user=uEPN8jkAAAAJ&hl=en'>Dr. S Natarajan</a> on self supervised learning for image inpainting.
   </p>
 </div>
 
