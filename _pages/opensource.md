@@ -12,6 +12,9 @@ nav_order: 2
         <b>L96_demo</b> - Optimized code run time and website deployment. Created content for machine learning with Lorenz-96 climate model while colaborating with several researchers from M2LInES, NYU and Columbia University - <a href='https://github.com/m2lines/L96_demo'>GitHub</a>.
     </li>
     <li>
+        <b>Compressed Sensing</b> - Implemented compressed sensing for MRI data using Primal Dual Splitting Algorithm for Image and Video Processing ECE GY 6123 by Dr. Yao Wang at New York University - <a href='https://compressed-sensing.github.io/algorithms/intro.html'>Website</a>.
+    </li>
+    <li>
         <b>Embedded Mamba</b> - Bring support for <code>mamba_ssm</code> and <code>causal-conv1d</code> python package to compile CUDA kernels on NVIDIA Jetson GPUs (arm64) with CUDA compatibility 72 and 87 - <a href='https://github.com/state-spaces/mamba/pull/262'>Mamba-ssm PR</a>, <a href='https://github.com/Dao-AILab/causal-conv1d/pull/20'>Causal-Conv1d PR</a>.
     </li>
     <li>
