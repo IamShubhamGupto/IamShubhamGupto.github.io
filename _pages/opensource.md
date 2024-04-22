@@ -2,7 +2,7 @@
 layout: page
 permalink: /opensource/
 title: Open Source
-description: My Open Source contributions and Github Projects
+description: My Open Source contributions and Github Projects 
 nav: true
 nav_order: 2
 ---
