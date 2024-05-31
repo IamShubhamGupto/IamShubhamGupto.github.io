@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
   </p>
 
   <p>
-    I am currently pursuing Masters in Computer Engineering at New York University, advised by <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at the AI4CE lab. I am researching optimal trajectories for Neural Radiance Fields and efficient inference for mobile computing. I am on the job job market <b>actively seeking software and machine learning engineering roles starting from July 2024!</b>.
+    I am currently pursuing Masters in Computer Engineering at New York University, advised by <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at the AI4CE lab. I am researching optimal trajectories for Neural Radiance Fields and efficient inference for mobile computing.
   </p>
 
   <p>
