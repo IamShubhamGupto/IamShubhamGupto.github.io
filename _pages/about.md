@@ -17,15 +17,14 @@ social: true  # includes social icons at the bottom of the page
 ---
 <div style="text-align: justify">
   <p>
-    Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I am a software developer passionate about solving Computer Vision problems. My current interests lie in 3D reconstruction using Neural Radiance Fields, scene understanding and optimizing network inference for mobile computing. 
+    Hey there! Welcome to my personal site (always under development) where I document most of my previous and ongoing work. I am a software developer passionate about solving Computer Vision problems. My current interests lie in Ocean emulation across multiple depths and optimizing network inference for mobile computing. 
   </p>
 
-  <p>
+  <!-- <p>
     I am currently pursuing Masters in Computer Engineering at New York University, advised by <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at the AI4CE lab. I am researching optimal trajectories for Neural Radiance Fields and efficient inference for mobile computing.
-  </p>
-
+  </p> -->
   <p>
-    I am a Computer Vision Lead at NYU RoboMaster, where I manage and work with an interdisciplinary team of fifteen to train, optimize, and deliver a detection and tracking solution for the RoboMaster University League competition. In addition, I work as a Climate Modeling Research Assistant at NYU, collaborating with <a href='https://zanna-researchteam.github.io'>Dr. Laure Zanna</a> at M2LInES, a center for data-driven climate science.
+    I completed my Masters in Computer Engineering from New York University in May 2024. I worked actively with <a href='https://engineering.nyu.edu/faculty/chen-feng'>Dr. Chen Feng</a> at <a href='https://ai4ce.github.io'>AI4CE lab</a> on Active Learning for Neural Radiance Fields and optimizing inference for visual place recognition for my Masters project. Addtionally, I worked as a Climate Modeling Research Assistant at <a href= 'https://m2lines.github.io'>M<sup>2</sup>LInES</a> advised by <a href='https://zanna-researchteam.github.io'>Dr. Laure Zanna</a>. My responsibilities include maintaining GitHub repositories and building Ocean Emulators. I will be returning to M<sup>2</sup>LInES to continue my work on Ocean Emulators. Extracurricularly, I led the Computer Vision subteam at NYU RoboMaster, where I manage and work with an interdisciplinary team of fifteen to train, optimize, and deliver a detection, forecasting and localization solution for the RoboMaster University League competition.
   </p>
 
   <p>
