@@ -167,7 +167,6 @@
     var trailColor = _cols.trail;
     var featColor  = _cols.feat;
 
-    var BOUNDS   = 2.0;
     var TAIL     = 110; // matches average feature lifetime (80–140 frames) so trail covers the feature cloud
     var NFEAT    = 80;
     var BASELINE = 0.38;
@@ -311,9 +310,18 @@
     var SPEED    = 0.013; // world units per frame
     var MAX_TURN = 0.022; // max heading bend per frame ≈ 1.3°  →  full 180° takes ~7 s
 
+    // Compute the visible world-space half-extents at z=0 from the live camera.
+    // This automatically accounts for every screen size, aspect ratio, and resize event.
+    function visibleBounds() {
+      var halfH = camera.position.z * Math.tan(camera.fov * Math.PI / 360);
+      var halfW = halfH * camera.aspect;
+      return { x: halfW * 0.80, y: halfH * 0.80 }; // 80% margin keeps rig clearly on-screen
+    }
+
+    var _vb0 = visibleBounds();
     var rig = {
-      x: (Math.random() - 0.5) * BOUNDS * 0.7,
-      y: (Math.random() - 0.5) * BOUNDS * 0.7,
+      x: (Math.random() - 0.5) * _vb0.x,
+      y: (Math.random() - 0.5) * _vb0.y,
       z: pnoise(nt + CH[2]) * 0.60,
       pitch: pnoise(nt + CH[4]) * 0.32,
       roll:  pnoise(nt + CH[5]) * 0.18,
@@ -322,18 +330,21 @@
     var frame = 0;
 
     function stepRig() {
-      nt += 0.003; // slow noise crawl → broad, gentle arcs
+      nt += 0.003;
 
-      // Perlin noise steers the heading (small angular change each frame)
+      // Re-read bounds every frame — responds instantly to window resize or orientation change
+      var vb = visibleBounds();
+
       var turn = pnoise(nt) * MAX_TURN;
 
-      // Soft boundary: when the rig drifts past 68% of BOUNDS, blend in a
-      // corrective turn toward the center so it curves back without snapping.
-      var dist = Math.sqrt(rig.x * rig.x + rig.y * rig.y);
-      if (dist > BOUNDS * 0.68) {
+      // Elliptical soft wall: normalise x and y separately so the margin is
+      // proportional on wide screens AND tall/narrow phone screens equally.
+      var nx = rig.x / vb.x, ny = rig.y / vb.y;
+      var ndist = Math.sqrt(nx * nx + ny * ny);
+      if (ndist > 0.68) {
         var toCenter  = Math.atan2(-rig.y, -rig.x);
         var angleDiff = Math.atan2(Math.sin(toCenter - heading), Math.cos(toCenter - heading));
-        var pull      = Math.min((dist - BOUNDS * 0.68) / (BOUNDS * 0.32), 1.0);
+        var pull      = Math.min((ndist - 0.68) / 0.32, 1.0);
         turn += angleDiff * pull * 0.10;
       }
 
@@ -343,7 +354,10 @@
       rig.x += Math.cos(heading) * SPEED;
       rig.y += Math.sin(heading) * SPEED;
 
-      // Secondary DOFs still driven by Perlin directly (no bounded integration needed)
+      // Hard clamp as final safety net — prevents any single bad frame from escaping
+      rig.x = Math.max(-vb.x, Math.min(vb.x, rig.x));
+      rig.y = Math.max(-vb.y, Math.min(vb.y, rig.y));
+
       rig.z     = pnoise(nt + CH[2]) * 0.60;
       rig.pitch = pnoise(nt + CH[4]) * 0.32;
       rig.roll  = pnoise(nt + CH[5]) * 0.18;

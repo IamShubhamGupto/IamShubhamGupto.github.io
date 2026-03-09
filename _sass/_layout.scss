@@ -2,9 +2,11 @@
  * Background animation canvas
  ******************************************************************************/
 
-// Animation canvas floats above all page content; pointer-events: none lets clicks pass through
+// Animation canvas floats above all page content; pointer-events: none lets clicks pass through.
+// position:fixed is also set as an inline style on the element in default.html so it applies
+// instantly on HTML parse — before the stylesheet — preventing any layout-flow flash.
 #bg-canvas {
-  position: fixed;
+  position: fixed !important; // guard against theme/framework overrides
   top: 0;
   left: 50%;
   width: 100%;
@@ -13,11 +15,12 @@
   transform: translateX(-50%);
   z-index: 2;
   pointer-events: none;
+  overflow: hidden; // prevent Three.js canvas inline-size from leaking outside
 
   canvas {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 100% !important;  // override Three.js renderer.setSize() inline style
+    height: 100% !important;
   }
 }
 
