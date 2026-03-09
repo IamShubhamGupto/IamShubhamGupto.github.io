@@ -15,7 +15,7 @@ email: sg7761@nyu.edu
 keywords: jekyll, jekyll-theme, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://IamShubhamGupto.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
