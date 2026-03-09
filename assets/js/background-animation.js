@@ -15,7 +15,8 @@
 
   // All pages use the same animation for simplicity.
   // Change this key to switch the site-wide animation.
-  var SITE_ANIMATION = 'camera_6dof';
+  // var SITE_ANIMATION = 'camera_6dof';
+  var SITE_ANIMATION = '';
 
   function getAnimationKey() {
     return SITE_ANIMATION;
@@ -315,11 +316,11 @@
     function visibleBounds() {
       var halfH = camera.position.z * Math.tan(camera.fov * Math.PI / 360);
       var halfW = halfH * camera.aspect;
-      return { x: halfW * 0.80, y: halfH * 0.80 }; // 80% margin keeps rig clearly on-screen
+      return { cx: 0, cy: 0, rx: halfW * 0.80, ry: halfH * 0.80 };
     }
 
     var rig = {
-      x: 0, // start at canvas center
+      x: 0,
       y: 0,
       z: pnoise(nt + CH[2]) * 0.60,
       pitch: pnoise(nt + CH[4]) * 0.32,
@@ -331,20 +332,21 @@
     function stepRig() {
       nt += 0.003;
 
-      // Re-read bounds every frame — responds instantly to window resize or orientation change
+      // Re-read bounds every frame — responds instantly to resize or orientation change
       var vb = visibleBounds();
 
       var turn = pnoise(nt) * MAX_TURN;
 
-      // Elliptical soft wall: starts steering at 50% of bounds so the rig curves
-      // away in a wide arc (≈90°) rather than a sharp reversal at the hard edge.
-      var nx = rig.x / vb.x, ny = rig.y / vb.y;
+      // Elliptical soft wall centred on the play area (not world origin).
+      // Starts steering at 50% radius so the rig curves away in a wide arc.
+      var nx = (rig.x - vb.cx) / vb.rx;
+      var ny = (rig.y - vb.cy) / vb.ry;
       var ndist = Math.sqrt(nx * nx + ny * ny);
       if (ndist > 0.50) {
-        var toCenter  = Math.atan2(-rig.y, -rig.x);
+        var toCenter  = Math.atan2(vb.cy - rig.y, vb.cx - rig.x);
         var angleDiff = Math.atan2(Math.sin(toCenter - heading), Math.cos(toCenter - heading));
         var pull      = Math.min((ndist - 0.50) / 0.50, 1.0);
-        turn += angleDiff * pull * 0.05; // gentle correction → wide quarter-circle turns
+        turn += angleDiff * pull * 0.05;
       }
 
       heading += turn;
@@ -353,9 +355,9 @@
       rig.x += Math.cos(heading) * SPEED;
       rig.y += Math.sin(heading) * SPEED;
 
-      // Hard clamp as final safety net — prevents any single bad frame from escaping
-      rig.x = Math.max(-vb.x, Math.min(vb.x, rig.x));
-      rig.y = Math.max(-vb.y, Math.min(vb.y, rig.y));
+      // Hard clamp — final safety net
+      rig.x = Math.max(vb.cx - vb.rx, Math.min(vb.cx + vb.rx, rig.x));
+      rig.y = Math.max(vb.cy - vb.ry, Math.min(vb.cy + vb.ry, rig.y));
 
       rig.z     = pnoise(nt + CH[2]) * 0.60;
       rig.pitch = pnoise(nt + CH[4]) * 0.32;
