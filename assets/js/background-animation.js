@@ -308,7 +308,7 @@
     // 180° reversals caused by mapping noise directly to position.
     var heading  = Math.random() * Math.PI * 2; // random initial direction
     var SPEED    = 0.013; // world units per frame
-    var MAX_TURN = 0.022; // max heading bend per frame ≈ 1.3°  →  full 180° takes ~7 s
+    var MAX_TURN = 0.016; // max heading bend per frame ≈ 0.9°  →  wider, lazier arcs
 
     // Compute the visible world-space half-extents at z=0 from the live camera.
     // This automatically accounts for every screen size, aspect ratio, and resize event.
@@ -318,10 +318,9 @@
       return { x: halfW * 0.80, y: halfH * 0.80 }; // 80% margin keeps rig clearly on-screen
     }
 
-    var _vb0 = visibleBounds();
     var rig = {
-      x: (Math.random() - 0.5) * _vb0.x,
-      y: (Math.random() - 0.5) * _vb0.y,
+      x: 0, // start at canvas center
+      y: 0,
       z: pnoise(nt + CH[2]) * 0.60,
       pitch: pnoise(nt + CH[4]) * 0.32,
       roll:  pnoise(nt + CH[5]) * 0.18,
@@ -337,15 +336,15 @@
 
       var turn = pnoise(nt) * MAX_TURN;
 
-      // Elliptical soft wall: normalise x and y separately so the margin is
-      // proportional on wide screens AND tall/narrow phone screens equally.
+      // Elliptical soft wall: starts steering at 50% of bounds so the rig curves
+      // away in a wide arc (≈90°) rather than a sharp reversal at the hard edge.
       var nx = rig.x / vb.x, ny = rig.y / vb.y;
       var ndist = Math.sqrt(nx * nx + ny * ny);
-      if (ndist > 0.68) {
+      if (ndist > 0.50) {
         var toCenter  = Math.atan2(-rig.y, -rig.x);
         var angleDiff = Math.atan2(Math.sin(toCenter - heading), Math.cos(toCenter - heading));
-        var pull      = Math.min((ndist - 0.68) / 0.32, 1.0);
-        turn += angleDiff * pull * 0.10;
+        var pull      = Math.min((ndist - 0.50) / 0.50, 1.0);
+        turn += angleDiff * pull * 0.05; // gentle correction → wide quarter-circle turns
       }
 
       heading += turn;

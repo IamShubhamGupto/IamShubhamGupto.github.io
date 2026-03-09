@@ -26,7 +26,7 @@ social: true  # includes social icons at the bottom of the page
   </p>
 
   <p>
-    Prior to joining NYU, I was a intern at Aruba Networks building IoT monitoring dashboards and SpringBoot APIs. I was also a research assistant at Indian Space Research Organization (ISRO) advised by <a href='https://www.researchgate.net/profile/Hebbar-Ram'>Dr. R Hebbar</a> and <a href='https://staff.pes.edu/nm1308/'>Dr. Uma D</a> at PES University for spatio temporal tracking of water bodies in Bengaluru. For my undergraduate capstone project, I was advised by <a href='https://scholar.google.co.in/citations?user=uEPN8jkAAAAJ&hl=en'>Dr. S Natarajan</a> on self supervised learning for image inpainting.
+    Prior to joining NYU, I was a intern at Aruba Networks building monitoring dashboards to visualize how customers utlized their IoT devices. I was also a research assistant at Indian Space Research Organization (ISRO) advised by <a href='https://www.researchgate.net/profile/Hebbar-Ram'>Dr. R Hebbar</a> and <a href='https://staff.pes.edu/nm1308/'>Dr. Uma D</a> at PES University for spatio temporal tracking of water bodies in Bengaluru. For my undergraduate capstone project, I was advised by <a href='https://scholar.google.co.in/citations?user=uEPN8jkAAAAJ&hl=en'>Dr. S Natarajan</a> on self supervised learning for image inpainting.
   </p>
 </div>
 
