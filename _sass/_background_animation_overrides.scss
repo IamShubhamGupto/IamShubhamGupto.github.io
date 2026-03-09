@@ -1,0 +1,10 @@
+/*******************************************************************************
+ * Overrides for the 3D background canvas (canvas floats above content).
+ * Canvas uses z-index: 2 and pointer-events: none so clicks pass through.
+ ******************************************************************************/
+
+// Ensure navbar stays above canvas so the menu is always clickable
+.navbar {
+  position: relative;
+  z-index: 10;
+}

@@ -1,4 +1,36 @@
 /******************************************************************************
+ * Background animation canvas
+ ******************************************************************************/
+
+// Animation canvas floats above all page content; pointer-events: none lets clicks pass through
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: $max-content-width;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: 2;
+  pointer-events: none;
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Keep content solid and stacked normally; canvas floats above via z-index: 2
+header,
+.container,
+footer {
+  position: relative;
+  z-index: 1;
+  background-color: var(--global-bg-color);
+}
+
+/******************************************************************************
  * Content
  ******************************************************************************/
 

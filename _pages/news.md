@@ -3,6 +3,7 @@ layout: page
 permalink: /news/
 title: News
 description: Timeline of events
+background_animation: camera_6dof
 nav: true
 nav_order: 1
 ---

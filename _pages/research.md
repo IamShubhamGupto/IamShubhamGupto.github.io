@@ -3,6 +3,7 @@ layout: page
 permalink: /research/
 title: Research
 description: My previous and current research
+background_animation: camera_6dof
 nav: true
 nav_order: 4
 ---

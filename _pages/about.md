@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+background_animation: camera_6dof
 subtitle: gupta [dot] shubham [at] nyu [dot] edu 
 profile:
   align: right

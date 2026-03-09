@@ -3,6 +3,7 @@ layout: page
 permalink: /opensource/
 title: Open Source
 description: My Open Source contributions and Github Projects 
+background_animation: camera_6dof
 nav: true
 nav_order: 2
 ---

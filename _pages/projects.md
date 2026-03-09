@@ -3,6 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
+background_animation: camera_6dof
 nav: false
 nav_order: 2
 display_categories: [work, fun]
